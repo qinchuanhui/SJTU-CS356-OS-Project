@@ -1,0 +1,12 @@
+After "insmod ptr_module.ko", this sentence will appear in kernel shell:
+	module load!
+
+After executing the test-ptree program, there will appear:
+	The 356 syscall is called
+
+If there are some error, there will appear:
+            memory allocated error!!
+    or     Error when copying.	(when other pragram calls 356, it will also appears)
+
+After "rmmod ptr_module.ko", this sentence will appear in kernel shell:
+	module exit!

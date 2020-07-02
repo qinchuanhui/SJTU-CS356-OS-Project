@@ -1,0 +1,71 @@
+The first line is a command-line input.
+The result is as follows
+
+
+root@generic:/data/misc # ./testARM
+swapper,0,0,0,1,0,0
+	init,1,1,0,43,2,0
+		ueventd,43,1,1,0,60,0
+		logd,60,1,1,0,61,1036
+		vold,61,1,1,0,67,0
+		healthd,67,1,1,0,68,0
+		lmkd,68,1,1,0,69,0
+		servicemanager,69,1,1,0,70,1000
+		surfaceflinger,70,1,1,0,72,1000
+		qemud,72,1,1,0,75,0
+		sh,75,1,1,0,76,2000
+		adbd,76,1,1,1678,77,0
+			sh,1678,1,76,1684,1,0
+				testARM,1684,0,1678,0,1,0
+		netd,77,1,1,0,78,0
+		debuggerd,78,1,1,0,79,0
+		rild,79,1,1,0,80,1001
+		drmserver,80,1,1,0,83,1019
+		mediaserver,83,1,1,0,84,1013
+		installd,84,1,1,0,85,0
+		keystore,85,1,1,0,86,1017
+		main,86,1,1,282,87,0
+			system_server,282,1,86,0,564,1000
+			d.process.acore,564,1,86,0,747,10002
+			putmethod.latin,747,1,86,0,895,10032
+			d.process.media,895,1,86,0,959,10005
+			droid.launcher3,959,1,86,0,973,10007
+			ndroid.settings,973,1,86,0,1006,1000
+			m.android.phone,1006,1,86,0,1036,1001
+			ndroid.calendar,1036,1,86,0,1057,10019
+			ndroid.systemui,1057,1,86,0,1101,10013
+			droid.deskclock,1101,1,86,0,1115,10023
+			viders.calendar,1115,1,86,0,1155,10001
+			ndroid.exchange,1155,1,86,0,1169,10029
+			m.android.email,1169,1,86,0,1271,10027
+			.quicksearchbox,1271,1,86,0,1,10042
+		gatekeeperd,87,1,1,0,88,1000
+		perfprofd,88,1,1,0,89,0
+		fingerprintd,89,1,1,0,1,1000
+	kthreadd,2,1,0,3,0,0
+		ksoftirqd/0,3,1,2,0,4,0
+		kworker/0:0,4,1,2,0,5,0
+		kworker/u:0,5,1,2,0,6,0
+		khelper,6,1,2,0,7,0
+		sync_supers,7,1,2,0,8,0
+		bdi-default,8,1,2,0,9,0
+		kblockd,9,1,2,0,10,0
+		rpciod,10,1,2,0,12,0
+		kswapd0,12,1,2,0,13,0
+		fsnotify_mark,13,1,2,0,14,0
+		crypto,14,1,2,0,25,0
+		kworker/u:1,25,1,2,0,30,0
+		mtdblock0,30,1,2,0,35,0
+		mtdblock1,35,1,2,0,40,0
+		mtdblock2,40,1,2,0,41,0
+		binder,41,1,2,0,42,0
+		deferwq,42,1,2,0,45,0
+		jbd2/mtdblock0-,45,1,2,0,46,0
+		ext4-dio-unwrit,46,1,2,0,52,0
+		jbd2/mtdblock1-,52,1,2,0,53,0
+		ext4-dio-unwrit,53,1,2,0,58,0
+		jbd2/mtdblock2-,58,1,2,0,59,0
+		ext4-dio-unwrit,59,1,2,0,123,0
+		kauditd,123,1,2,0,172,0
+		kworker/0:2,172,1,2,0,1673,0
+		flush-31:1,1673,1,2,0,0,0

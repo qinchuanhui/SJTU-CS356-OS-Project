@@ -1,0 +1,66 @@
+The first line is a command-line input, then the ouput is following 
+
+root@generic:/data/misc # ./BBC 20 4 
+parameter number error!
+
+
+root@generic:/data/misc # ./BBC 3ab 4 4 5
+invalid char!
+
+
+root@generic:/data/misc # ./BBC 41 0 23 1
+Parameters should not be less than one!
+
+
+
+The last line "user signal 1" means the process is finished after all the threads are killed or finished
+Because I use rand( ) to set the threads, so there may be some special-look but right-logic results.
+
+
+root@generic:/data/misc # ./BBC 3 4 10 4
+Cooks [3], Cashiers [4], Customers [10]
+Begin run.
+Cooks[1] make a burger.
+Cooks[2] make a burger.
+Cooks[3] make a burger.
+Customer [4] comes.
+Customer [6] comes.
+Cashier [1] accepts an order.
+Cashier [1] takes a burger to customer.
+Cashier [1] accepts an order.
+Cashier [1] takes a burger to customer.
+Customer [7] comes.
+Customer [8] comes.
+Cashier [1] accepts an order.
+Cashier [1] takes a burger to customer.
+Cashier [1] accepts an order.
+Cooks[1] make a burger.
+Cashier [1] takes a burger to customer.
+Cooks[2] make a burger.
+Cooks[3] make a burger.
+Customer [2] comes.
+Cashier [2] accepts an order.
+Cashier [2] takes a burger to customer.
+Customer [5] comes.
+Cashier [2] accepts an order.
+Cashier [2] takes a burger to customer.
+Customer [3] comes.
+Cashier [2] accepts an order.
+Cooks[1] make a burger.
+Cashier [2] takes a burger to customer.
+Cooks[2] make a burger.
+Cooks[3] make a burger.
+Customer [9] comes.
+Cashier [3] accepts an order.
+Cashier [3] takes a burger to customer.
+Cooks[1] make a burger.
+Cooks[2] make a burger.
+Cooks[3] make a burger.
+Customer [1] comes.
+Cashier [3] accepts an order.
+Cashier [3] takes a burger to customer.
+Cooks[1] make a burger.
+Customer [10] comes.
+Cashier [3] accepts an order.
+Cashier [3] takes a burger to customer.
+User signal 1 
