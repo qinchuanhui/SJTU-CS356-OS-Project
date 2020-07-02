@@ -1,0 +1,9 @@
+1. kernel/sys.c		from line 2272 to 2333	syscall-implement
+2. kernel/mmlinit_def.c 	this is a new file 		struct initialize and define
+3. mm/page_alloc.c 	from line 2242 to 2710  	function-implement
+4. include/linux/gfp.h  	from line 299 to 299	fuction prototype
+5. include/linux/syscalls.h		from line 864 to 866	syscall
+6. include/linux/mmlimit_struct.h	this is a new file 		struct prototype
+7. arch/arm/include/asm/unistd.h	from line 408 to 409	syscall
+8. arch/arm/kernel/calls.S		from line 396 to 398	syscall
+
